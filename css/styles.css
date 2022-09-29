@@ -1,0 +1,652 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:grey;
+  
+  }
+
+
+  p{
+    letter-spacing: 1px;
+  }
+
+  header{
+    width: 100%;
+    background-color: rgba(34,34,34,0.7);
+    display: flex;
+    justify-content: space-between;
+    max-height: 120px;
+  }
+
+  .logo{
+    width: 10%;
+    margin-left: 20px;
+  }
+     .logo img{
+         width: 100%;
+                }
+
+
+  h1{
+color:rgb(250,211,14);
+margin-top: 2%;
+margin-right: 2%;
+margin-bottom: 2%;
+font-size: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+letter-spacing: 1px;
+font-weight: lighter;
+  }
+
+.intro{
+    width:100%;
+    
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
+.listado{
+    width: 40%;
+   text-decoration: none;
+   margin-top: 150px;
+}
+ul{
+    list-style-type: none;
+    
+}
+
+li{
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-size: 30px;
+}
+
+li a:hover{
+    color: rgb(250,211,14);
+  }
+
+.movies{
+    width: 35%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  
+}
+    .movies img{
+        width: 100%;
+        border-radius: 1.5em;
+    }
+
+.contacto{
+    width: 80%;
+    background-color:rgba(5, 7, 12, 0.10);
+   margin:auto;
+   margin-bottom:50px;
+   display:flex;
+   justify-content:space-evenly;
+   padding: 10px;
+   
+}
+
+.telefono{
+    width:8%;
+letter-spacing: 00.1em;
+}
+    .telefono img{
+        width:100%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    }
+
+.info{
+    width:90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 10px;
+}
+
+.historia{
+    width: 15%;
+    text-align: center;
+
+    
+}
+    .historia img{
+        width:100%;
+        border-radius: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .historia h3{
+        margin-bottom: 10px;
+        letter-spacing: 0.2px;
+        color: black;
+    }
+
+.educacion{
+    width: 30%;
+    text-align: center;
+    margin-top: 45px;
+    
+}
+
+    .educacion img{
+        width:100%;
+        border-radius: 1.3em;
+        margin-bottom: 63px;
+    }
+
+    .educacion h3{
+        margin-bottom: 10px;
+       letter-spacing: 0.2px;
+       color:black;
+       margin-top: 30px;
+    }
+
+.cajapremios{
+    width:90%;
+    margin:auto;
+    background-color: rgba(250,211,14, 0.30);
+    margin-top: 40px;
+}
+.premios{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding:20px;
+
+}
+
+    .cajapremios h2{
+        padding:20px;
+        text-align: left;
+        font-weight: lighter;
+        letter-spacing: 1px;
+    }
+
+    .cajapremios ul li{
+        font-size: 15px;
+        text-align: left;
+        
+    }
+
+.primer{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.libro{
+    width:30%;
+    text-align: center;
+}
+
+    .libro img{
+        width:100%;
+        margin-bottom: 1%;
+    }
+    .libro h3{
+        letter-spacing: 0.1em;
+        margin-bottom: 2%;
+        color:black;
+    }
+
+.peli{
+    width:90%;
+}
+    .peli img{
+        width:100%;
+        margin-bottom: 1%;
+    }
+
+
+ .podcast{
+    display:flex;
+    
+    flex-wrap: nowrap;
+    padding:10px;
+    margin-bottom: 5%;
+ }
+
+ .podcastinfo{
+    letter-spacing: 1px;
+    margin-left: 2%;
+    margin-top: 5%;
+ }
+ .podcast h3{
+    color:black;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+
+.podcastportada{
+    width:50%;
+    margin-left: 10%;
+}
+
+    .podcastportada img{
+        width:100%;
+    }
+  
+.podcastinfo img{
+    width: 60%;
+    margin-top: 3%;
+   margin-left: 1%;
+}
+
+ .planos{
+    width:100%;
+    margin-bottom: 5%;
+ }   
+    .planos img{
+        width:100%;
+        opacity: 0.90;
+    }
+
+.firma{
+    width:10%;
+    margin-left: 43%;
+    margin-bottom: 2%;
+}
+
+    .firma img{
+        width:100%;
+    }
+
+@media screen and (min-width:0px) and (max-width:580px){
+
+header{
+        max-height: 100px;
+        margin-bottom: 5px;
+        background-color: rgba(34,34,34,0.7);;
+      }
+
+
+.logo{
+        width: 20%;
+        margin-left: 10px;
+      }
+
+h1{
+      margin-top: 6%;
+        margin-right: 5%;
+        font-size: 30px;
+        color:rgb(250,211,14);
+
+          }
+
+.intro{
+        width:100%;
+        flex-direction: column-reverse;
+        }
+
+
+.movies{
+         width: 50%;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        margin: auto;
+          
+        }
+    
+.listado{
+            width: 100%;
+           text-decoration: none;
+           margin-top: 10px;
+           background-color: grey;
+           padding: 10px;
+           margin-bottom: 20px;
+        }
+        
+li{
+            font-size: 15px;
+            color:rgb(250,211,14);
+        }
+        
+
+ h2{
+        font-size: 20px;
+            }
+
+ .info{
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+            }
+
+
+ .historia{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+       
+        
+            
+                 }
+        .historia img{
+            margin-bottom: 5px;
+                }
+            
+        .historia h3{
+            margin-bottom: 10px;
+                }
+
+.educacion{
+        width: 50%;
+        margin-top: 30px;
+        display:flex;
+        flex-direction: column;
+        margin-left: 130px;
+                    
+                }
+                
+        .educacion img{
+                margin-bottom: 5px;
+                    }
+                
+        .educacion h3{
+                margin-bottom: 10px;
+                margin-top: 5px;
+                    }
+
+.cajapremios{
+        width:90%;
+                    }
+                    
+            .premios{
+                display:flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                
+                    
+                    }
+                    
+            .cajapremios h2{
+                padding:15px;
+                text-align: center;
+                        }
+                    
+            .cajapremios ul li{
+                    font-size: 13px;
+                    text-align: left;
+                    color: grey;
+                            
+                        }
+.primer{
+        display:flex;
+        flex-direction: column;
+        margin-top: 5%;
+        margin-bottom: 5%;
+                        }
+                        
+.libro{
+        width:80%;
+        margin: auto;
+        margin-top: 5%;
+                        }
+                        
+                .libro img{
+                        margin-bottom: 3%;
+                            }
+                .libro h3{
+                        margin-bottom: 2%;
+                            }
+
+.peli{
+        width:100%;
+            }
+            .peli img{
+                    width:100%;
+                    margin-bottom: 1%;
+                                }
+
+
+.podcast{
+        flex-wrap: wrap;
+        padding:10px;
+                }
+
+                .podcast h3{
+                    text-align: center;
+                    margin-bottom: 2%;
+                }
+                                
+.podcastinfo{
+        letter-spacing: 1px;
+        text-align: center;
+        margin-top: 5%;
+                }
+                .podcastinfo img{
+                    width: 70%;
+                    margin:auto;
+                    padding: 10px;
+                }
+               
+                                
+                                
+.podcastportada{
+        width:70%;
+        margin: auto;
+                    }
+                                
+                                  
+                            
+}
+
+
+@media screen and (min-width:0px) and (max-width:768px){
+    header{
+        max-height: 120px;
+        margin-bottom: 50px;
+        background-color: rgba(34,34,34,0.7);
+      }
+
+.logo{
+        width: 20%;
+        margin-left: 20px;
+      }
+
+h1{
+      margin-top: 6%;
+        margin-right: 5%;
+        font-size: 30px;
+        color:rgb(250,211,14);
+
+          }
+
+.intro{
+    width:100%;
+    flex-direction: column-reverse;
+            }
+    
+    
+    .movies{
+             width: 60%;
+            margin-bottom: 10px;
+            margin-top: 50px;
+            margin: auto;
+              
+            }
+        
+    .listado{
+                width: 100%;
+               margin-top: 10px;
+               background-color: grey;
+               padding: 10px;
+               margin-bottom: 20px;
+            }
+            
+    li{
+                font-size: 20px;
+                color:rgb(250,211,14);
+            }
+
+
+h2{
+    font-size: 20px;
+                    }
+        
+.info{
+    flex-direction: column;
+    padding: 5px;
+    width:70%;
+    justify-content:center;
+    margin: 2%;
+                    }
+        
+.historia{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 207px;
+                            
+            }
+.historia img{
+    margin-bottom: 5px;
+            }
+                            
+.historia h3{
+    margin-bottom: 10px;
+            }   
+                    
+
+            .educacion{
+                width: 50%;
+                margin-top: 30px;
+                display:flex;
+                flex-direction: column;
+                margin-left: 181px;
+                            
+                        }
+                        
+                .educacion img{
+                        margin-bottom: 5px;
+                            }
+                        
+                .educacion h3{
+                        margin-bottom: 10px;
+                        margin-top: 5px;
+                            }
+
+
+            .cajapremios ul li{
+                font-size: 13px;
+                text-align: left;
+                color: grey;
+                        
+                    }
+
+                    .primer{
+                        flex-direction: column;
+                        margin-top: 2%;
+                    
+                                        }
+                                        
+                .libro{
+                        width:80%;
+                        margin: auto;
+                        margin-top: 5%;
+                                        }
+                                        
+                                .libro img{
+                                        margin-bottom: 3%;
+                                            }
+                                .libro h3{
+                                        margin-bottom: 2%;
+                                            }
+                
+.peli{
+        width:100%;
+                }
+    .peli img{
+            width:100%;
+            margin-bottom: 1%;
+                 }
+
+.podcast{
+        flex-wrap: wrap;
+        padding:10px;
+                }
+                                            
+    .podcast h3{
+        text-align: center;
+        margin-bottom: 2%;
+                }
+                                                                            
+.podcastinfo{
+        letter-spacing: 1px;
+        text-align: center;
+        margin-top: 5%;
+                }
+    .podcastinfo img{
+            width: 70%;
+            margin:auto;
+            padding: 10px;
+                }
+                                                           
+                                                                            
+                                                                            
+ .podcastportada{
+            width:60%;
+             margin: auto;
+                }
+
+
+.cajapremios{
+        width:90%;
+        padding: 20px;
+
+            }
+
+.premios{
+
+                flex-direction: column;
+                flex-wrap: wrap;
+              
+            
+            }
+
+            .cajapremios ul li{
+                font-size: 14px;
+                padding: 5px;
+                        
+                    }
+
+                    .cajapremios h2{
+                        padding:5px;
+                        
+                    }
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+  
+
+
